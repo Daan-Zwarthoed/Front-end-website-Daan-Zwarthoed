@@ -6,10 +6,7 @@ Ik wil mij in deze opdracht focussen op de surface laag. Als responisve design l
 
 De website waaraan je wilt gaan werken:
 
-Ik wil in mijn design iets in de buurt maken van de onderstaande sites:
-http://www.hollow.org.uk/
-https://dogstudio.co/
-https://www.annefrank.org/en/anne-frank/secret-annex/landing/
+Ik wil in mijn design iets in de buurt maken van de onderstaande site:
+https://www.bowenmedia.com/
 
-Ik twijfel eerlijk gezegd of dit mogelijk is maar zoiets wil ik heel graag proberen.
-Het liefste wil ik de site van hollow.org namaken, maar ik wil graag van jullie horen of dat mogelijk is.
+Dit is een site met veel coole transities en dingen veranderen veel. Het is een lange one-page dus weet niet of ik dan 2 schermen moet uitwerken maar hier wil ik aan werken
