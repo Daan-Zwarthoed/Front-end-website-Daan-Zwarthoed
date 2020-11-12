@@ -15,4 +15,4 @@ Dit is een site met veel coole transities en dingen veranderen veel. Het is een 
 
 Dit is mijn breakdown schets van bowenmedia. Dit is de site die ik ga uitwerken met alle html elementen ernaast. Zoals je kan zien is deze site op HTML gebied niet heel lastig. Het wordt moeilijk bij het CSS en Javascript van deze site.
 
-![Screenshot](breakdownSchets.png)
+![Screenshot](breakdownSchets.jpg)
