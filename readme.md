@@ -12,3 +12,6 @@ Ik wil in mijn design iets in de buurt maken van de onderstaande site:
 https://www.bowenmedia.com/
 
 Dit is een site met veel coole transities en dingen veranderen veel. Het is een lange one-page dus weet niet of ik dan 2 schermen moet uitwerken maar hier wil ik aan werken
+
+Dit is mijn breakdown schets van bowenmedia. Dit is de site die ik ga uitwerken met alle html elementen ernaast. Zoals je kan zien is deze site op HTML gebied niet heel lastig. Het wordt moeilijk bij het CSS en Javascript van deze site.
+
