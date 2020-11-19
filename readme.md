@@ -16,3 +16,7 @@ Dit is een site met veel coole transities en dingen veranderen veel. Het is een 
 Dit is mijn breakdown schets van bowenmedia. Dit is de site die ik ga uitwerken met alle html elementen ernaast. Zoals je kan zien is deze site op HTML gebied niet heel lastig. Het wordt moeilijk bij het CSS en Javascript van deze site.
 
 ![Screenshot](breakdownSchets.jpg)
+
+Week 2
+
+In week 2 hoorde ik dat ik in week 3 90% van mijn html af moest hebben. Ik heb toen vrijdag van week 2 99% van mijn html en css afgemaakt. Vraag mij niet hoe, maar ik ging als een trein. klik op de link om te zien hoe mijn site nu is
