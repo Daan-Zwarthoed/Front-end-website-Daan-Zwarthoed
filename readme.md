@@ -20,3 +20,4 @@ Dit is mijn breakdown schets van bowenmedia. Dit is de site die ik ga uitwerken 
 Week 2
 
 In week 2 hoorde ik dat ik in week 3 90% van mijn html af moest hebben. Ik heb toen vrijdag van week 2 99% van mijn html en css afgemaakt. Vraag mij niet hoe, maar ik ging als een trein. klik op de link om te zien hoe mijn site nu is
+
