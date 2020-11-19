@@ -20,8 +20,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 2em;
-overflow-y: scroll;
- overflow-x: hidden;
 }
 
 header img{
