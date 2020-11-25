@@ -21,3 +21,24 @@ Week 2
 
 In week 2 hoorde ik dat ik in week 3 90% van mijn html af moest hebben. Ik heb toen vrijdag van week 2 99% van mijn html en css afgemaakt. Vraag mij niet hoe, maar ik ging als een trein. klik op de link om te zien hoe mijn site nu is
 
+Week 3
+
+Woensdag heb ik nog even mijn werk door een W3C validator gehaald en daarna heb ik deze readme file bijgewerkt en ingeleverd.
+Daan(ik)
+Hoe trigger je een animatie als het element daarvoor in jou scherm verschijnt?
+Hoe zorg je dat een element beweegt doordat jij scrolled?
+
+Dewi
+mag je dingen aanpassen als je dat zelf beter vindt? bv header fixed maken
+
+Noa
+Voldoende variatie in content?  | Moet ik nog: Search bar, tweede pagina , Navigatie icons
+
+Inez
+
+
+Niels
+
+
+
+
