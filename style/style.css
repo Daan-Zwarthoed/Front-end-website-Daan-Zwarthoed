@@ -212,7 +212,6 @@ justify-content: center;
 
 /* Begin extra kopjes */
 .extraKopjes{
-  height: 175vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,7 +247,7 @@ justify-content: center;
 
 /* Begin latest */
 .latest{
-  height: 220vh;
+  margin-top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -325,7 +324,12 @@ justify-content: center;
 width: 100%;
 }
 
-.intro div span div{
+.intro > div > div{
+  display: flex;
+  flex-direction: column;
+}
+
+.intro >div >div >div{
   font-size:initial;
   color: white;
   display: flex;
