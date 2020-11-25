@@ -26,7 +26,6 @@ Week 3
 Woensdag heb ik nog even mijn werk door een W3C validator gehaald en daarna heb ik deze readme file bijgewerkt en ingeleverd.
 Daan(ik)
 Hoe trigger je een animatie als het element daarvoor in jou scherm verschijnt?
-Hoe zorg je dat een element beweegt doordat jij scrolled?
 
 Dewi
 mag je dingen aanpassen als je dat zelf beter vindt? bv header fixed maken
@@ -35,10 +34,10 @@ Noa
 Voldoende variatie in content?  | Moet ik nog: Search bar, tweede pagina , Navigatie icons
 
 Inez
-
+Hoe maak ik de header responsive als hij er compleet anders uitziet op desktop dan op mobiel?
 
 Niels
-
+Hoe zorg je dat een element beweegt doordat jij scrolled?
 
 
 
