@@ -24,6 +24,7 @@ In week 2 hoorde ik dat ik in week 3 90% van mijn html af moest hebben. Ik heb t
 Week 3
 
 Woensdag heb ik nog even mijn werk door een W3C validator gehaald en daarna heb ik deze readme file bijgewerkt en ingeleverd.
+
 Daan(ik)
 Hoe trigger je een animatie als het element daarvoor in jou scherm verschijnt?
 
