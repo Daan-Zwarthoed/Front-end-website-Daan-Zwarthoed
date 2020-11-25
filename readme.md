@@ -21,3 +21,6 @@ Week 2
 
 In week 2 hoorde ik dat ik in week 3 90% van mijn html af moest hebben. Ik heb toen vrijdag van week 2 99% van mijn html en css afgemaakt. Vraag mij niet hoe, maar ik ging als een trein. klik op de link om te zien hoe mijn site nu is
 
+Week 3
+
+Ik heb nog mijn HTML en CSS door de W3C validator gehaald en heb toen mijn werk ingeleverd.
