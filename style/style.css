@@ -1,173 +1,279 @@
-*,html{
+*, html {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
-header, .introPagina, .featuredProject{
+header, .introPagina, .featuredProject {
   color: white;
 }
+
+
 /* begin header */
-header{
+header {
   position: fixed;
-  z-index: 100;
+  z-index: 9;
   height: 10vh;
   left: 0;
   right: 0;
   top: 0;
-padding: 0;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 2em;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  opacity: 1;
+  transition: 1s;
 }
 
-header img{
+header div {
   height: 2em;
+  width: 8em;
+  background-image: url('../images/bowenMediaLogoWit.svg');
+  background-size: cover;
+  border-style: none;
 }
 
-header button{
+header button {
   background-color: transparent;
-    border: none;
-    color: white;
+  border: none;
+  color: white;
 }
 
-
-.kensingtonHeader{
-  background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+.headerWit{
+  background-color: white;
 }
+
+.headerWit div{
+  background-image: url('../images/bowenMediaLogoZwart.svg');
+}
+
+.headerWit *{
+color: black;
+}
+
+.headerHidden{
+  opacity: 0;
+}
+
+.kensingtonHeader {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
 /* einde header */
-
 /* Begin footer */
-
-footer{
+footer {
   height: 50vh;
   background-color: black;
   color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
-footer a{
+footer * {
+  opacity: 0;
+  font-weight: normal;
+}
+
+footer a {
   color: inherit;
   text-decoration: none;
 }
 
-footer h1{
+footer>div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 4em;
+  margin-top: 2em;
+}
+
+footer div {
+  overflow: hidden;
+  position: relative;
+}
+
+footer h1 {
+  position: relative;
   margin-top: 30%;
+  overflow: hidden;
+  height: 1.5em;
+}
+
+footer h1 span {
+  position: relative;
 }
 
 footer a:nth-of-type(1) {
-  margin-top: 2em;
   margin-bottom: 2em;
 }
 
-footer a:nth-of-type(2), footer > div > a{
+footer div a {
   font-size: .6em;
- letter-spacing: 2px;
-}
-
-footer > div > a{
-margin-left: 0.5em;
-margin-right: 0.5em;
-
-}
-/* Einde footer */
-
-
-/* Begin index pagina */
-
-
-/* begin intropagina */
-
-.introPagina{
+  letter-spacing: 2px;
   position: relative;
-  overflow:hidden;
+}
+
+footer>div>div>a {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* Einde footer */
+/* Begin index pagina */
+/* begin intropagina */
+.introPagina {
+  position: relative;
+  height: 200vh;
+  width: 100vw;
+z-index: 1;
+}
+.introPagina > div{
   height: 100vh;
   width: 100vw;
+  position: sticky;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  top: 0;
+overflow: hidden;
 }
-.introPagina > *{
+
+.introPagina> div >* {
   z-index: 10;
 }
 
-.introPagina video{
+.introPagina video {
   position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
   z-index: 1;
 }
-.introPagina p{
+
+.introPagina source {
+  height: 100%;
+  width: 100%;
+}
+
+.introPagina p {
   margin-bottom: 5vh;
 }
-.introPagina h1{
-  display:  flex;
+
+.introPagina h1 {
+  display: flex;
   text-align: center;
   font-size: 200%;
 }
 
-.introPagina h1:nth-of-type(2){
+.introPagina h1:nth-of-type(2) {
   color: purple;
 }
 
-.introPagina > div{
+.introPagina .playbutton {
   margin-top: 5vh;
-  position: relative;
   width: 4em;
   height: 4em;
-  background-color: black;
-  border-radius: 100%;
+  position: relative;
 }
 
-.introPagina > div > div{
-  clip-path: polygon(87% 50%, 12% 0, 12% 100%);
-  background-color: white;
+.introPagina .playbutton>span {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 2em;
-  height: 2em;
-  z-index: 12;
 }
 
-/* einde beginpagina */
+.introPagina .playbutton>span:nth-of-type(1) {
+  clip-path: polygon(87% 50%, 12% 0, 12% 100%);
+  background-color: white;
+  width: 2em;
+  height: 2em;
+  z-index: 2;
+}
 
+.introPagina .playbutton>span:nth-of-type(2) {
+  background-color: black;
+  border-radius: 100%;
+  width: 4em;
+  height: 4em;
+  z-index: 1;
+}
+
+.introPagina .playbutton>span:nth-of-type(3) {
+  background-color: white;
+  border-radius: 100%;
+  width: 4.2em;
+  height: 4.2em;
+  clip-path: polygon(0 0, 51% 0, 50% 50%, 0 50%);
+}
+
+.introPagina > div >div:nth-of-type(2) {
+  position: absolute;
+  width: 2px;
+  height: 3em;
+  overflow: hidden;
+  z-index: 4;
+  bottom: 2em;
+}
+
+.introPagina div:nth-of-type(2) span {
+  position: absolute;
+  background-color: white;
+  width: 2px;
+  height: 10em;
+}
+
+
+/* einde beginpagina */
 /* Begin featured project */
-.featuredProject{
-  height: 100vh;
+.featuredProject {
+  position:absolute;
+  padding-top: 140vh;
+  top: 0; bottom: 0; left: 0; right: 0;
+  height: 400vh;
+z-index: 10;
+opacity: 0;
+transition: 1s;
   background-color: #2f5cb6;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 0;
 }
-.featuredProject > *{
+
+.featuredProjectActief{
+opacity: 1;
+z-index: 2;
+}
+
+.featuredProject>* {
   width: 80vw;
   margin-top: 1em;
 }
 
-.featuredProjectImage{
+.featuredProjectImage {
   position: relative;
   height: 15em;
   overflow: hidden;
 }
- .featuredProjectImage > div{
+
+.featuredProjectImage>div {
   position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, .50);
-z-index: 1;
+  z-index: 1;
 }
 
-.featuredProjectImage > img{
+.featuredProjectImage>img {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -176,18 +282,18 @@ z-index: 1;
   min-height: 100%;
 }
 
-.featuredProjectImage > h2{
+.featuredProjectImage>h2 {
   position: absolute;
   left: 1em;
   bottom: 3%;
   z-index: 2;
 }
 
-.featuredProject > a{
+.featuredProject>a {
   height: 3em;
   display: flex;
-align-items: center;
-justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
   background-color: black;
   text-decoration: none;
   color: inherit;
@@ -195,87 +301,82 @@ justify-content: space-around;
 
 .PRVofNXT {
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 
-.PRVofNXT span{
-width: 5em;
-display: flex;
-justify-content: center;
+.PRVofNXT span {
+  width: 5em;
+  display: flex;
+  justify-content: center;
 }
 
-.PRVofNXT span:nth-of-type(1){
+.PRVofNXT span:nth-of-type(1) {
   border-right: 2px solid white;
 }
+
 /* Einde featured project */
-
-
 /* Begin extra kopjes */
-.extraKopjes{
+.extraKopjes {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20vh;
 }
 
-.extraKopjes > *{
+.extraKopjes>* {
   width: 80vw;
   margin-top: 1em;
 }
 
-.extraKopjes > div{
+.extraKopjes>div {
   display: flex;
   justify-content: space-between;
 }
 
-.extraKopjes > p{
+.extraKopjes>p {
   height: 8em;
 }
 
-.extraKopjes > h2{
+.extraKopjes>h2 {
   margin-top: 4em;
 }
 
-.extraKopjes a{
+.extraKopjes a {
   color: black;
   text-decoration: none;
 }
-.extraKopjes a span{
+
+.extraKopjes a span {
   text-decoration: underline;
 }
 
 /* Einde extra kopjes */
-
 /* Begin latest */
-.latest{
+.latest {
   margin-top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.latest > div{
+.latest>div {
   width: 80vw;
   height: 80vw;
   margin-top: 1em;
   position: relative;
   overflow: hidden;
   margin-bottom: 5vh;
-
 }
 
-.latest > div > img{
+.latest>div>img {
   position: absolute;
   height: 80vw;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
 }
 
-
-
-
-.latest > div:nth-of-type(3){
+.latest>div:nth-of-type(3) {
   background-color: purple;
   color: white;
   display: flex;
@@ -285,29 +386,19 @@ justify-content: center;
   padding-bottom: 4em;
   padding-left: 3em;
   padding-right: 4em;
-
 }
 
-.latest > div:nth-of-type(4) > p:nth-of-type(2){
-margin-top: 1em;
-margin-bottom: 1em;
-font-weight: bolder;
+.latest>div:nth-of-type(4)>p:nth-of-type(2) {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bolder;
 }
 
 /* Einde latest */
-
-
 /* Einde index pagina */
-
-
-
-
-
-
 /* Begin kensinstonEstate */
-
 /* Begin intro */
-.intro div{
+.intro div {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -315,22 +406,24 @@ font-weight: bolder;
   font-size: 0.8em;
   margin-bottom: 2em;
 }
-.intro img{
-width:100vw;
-}
-.intro div h1{
-display: flex;
-justify-content: center;
-width: 100%;
+
+.intro img {
+  width: 100vw;
 }
 
-.intro > div > div{
+.intro div h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.intro>div>div {
   display: flex;
   flex-direction: column;
 }
 
-.intro >div >div >div{
-  font-size:initial;
+.intro>div>div>div {
+  font-size: initial;
   color: white;
   display: flex;
   justify-content: center;
@@ -342,80 +435,80 @@ width: 100%;
 }
 
 /* Einde intro */
-
 /* Begin tekst */
-
-.tekst{
+.tekst {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: lighter;
 }
 
-.tekst > *{
+.tekst>* {
   width: 80vw;
   margin-top: 1em;
 }
 
-.tekst a{
+.tekst a {
   color: black;
 }
 
-.tekst h2{
+.tekst h2 {
   position: relative;
 }
-.tekst h2 img{
+
+.tekst h2 img {
   position: relative;
   top: .5em;
   height: 1.5em;
 }
 
 /* Begin kleuren */
-.kleuren{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+.kleuren {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.kleuren > div{
-margin-bottom: 1em;
-margin-right: 2em;
+
+.kleuren>div {
+  margin-bottom: 1em;
+  margin-right: 2em;
 }
-.kleuren > div > div{
+
+.kleuren>div>div {
   height: 8em;
   width: 7em;
 }
-.kleuren p:nth-of-type(1){
+
+.kleuren p:nth-of-type(1) {
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
-.kleuren > div:nth-of-type(2){
+.kleuren>div:nth-of-type(2) {
   position: relative;
   top: 3em;
 }
 
-.kleuren > div:nth-of-type(1) > div{
-background-color: #2a5cb8;
+.kleuren>div:nth-of-type(1)>div {
+  background-color: #2a5cb8;
 }
 
-.kleuren > div:nth-of-type(2) > div{
+.kleuren>div:nth-of-type(2)>div {
   background-color: #0b3075;
-
 }
 
-.kleuren > div:nth-of-type(3) > div{
+.kleuren>div:nth-of-type(3)>div {
   background-color: #04162d;
-
 }
-/* Einde kleuren */
 
- /* Begin fonts */
-.fonts{
+/* Einde kleuren */
+/* Begin fonts */
+.fonts {
   display: flex;
   flex-wrap: wrap;
 }
 
-.fonts div{
+.fonts div {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -425,51 +518,50 @@ background-color: #2a5cb8;
   width: 40vw;
 }
 
-.fonts div:nth-of-type(1){
+.fonts div:nth-of-type(1) {
   background-color: #2f5cb6;
   color: white;
-
 }
 
-.fonts div:nth-of-type(1) p:nth-of-type(1){
+.fonts div:nth-of-type(1) p:nth-of-type(1) {
   font-size: 2em;
   margin-bottom: .5em;
 }
 
-.fonts div:nth-of-type(1) p:nth-of-type(2){
+.fonts div:nth-of-type(1) p:nth-of-type(2) {
   font-size: 1.5em;
 }
 
-.fonts div:nth-of-type(2) p:nth-of-type(1){
+.fonts div:nth-of-type(2) p:nth-of-type(1) {
   font-size: 1.1em;
   margin-bottom: .5em;
 }
 
-.fonts div:nth-of-type(2) p:nth-of-type(2){
+.fonts div:nth-of-type(2) p:nth-of-type(2) {
   font-size: 1.3em;
 }
 
-.fonts h4{
+.fonts h4 {
   margin-top: 3em;
   margin-bottom: 2em;
 }
 
- /* Einde fonts*/
-
+/* Einde fonts*/
 /* Begin rest */
-.rest{
+.rest {
   margin-top: 4em;
 }
 
-.rest p{
+.rest p {
   margin-top: 1em;
 }
-.rest h3:nth-of-type(1){
-text-align: center;
-margin-bottom: 3em;
+
+.rest h3:nth-of-type(1) {
+  text-align: center;
+  margin-bottom: 3em;
 }
 
-.rest div span:nth-of-type(1){
+.rest div span:nth-of-type(1) {
   border-right: 1px solid black;
   padding-right: .2em;
 }
@@ -478,28 +570,24 @@ margin-bottom: 3em;
   margin-bottom: 1em;
 }
 
-.rest h4:first-of-type{
-margin-top: 6em;
+.rest h4:first-of-type {
+  margin-top: 6em;
 }
 
-
-p a{
+p a {
   color: #51bef5 !important;
   text-decoration: none;
 }
 
-.rest img{
+.rest img {
   width: 80vw;
   margin-top: 3em;
   margin-bottom: 4em;
 }
 
-
-
 /* Einde rest */
-
 /* Begin outro */
-.outro{
+.outro {
   position: relative;
   width: 100vw;
   height: 65vh;
@@ -509,16 +597,17 @@ p a{
   flex-direction: column;
   align-items: center;
   margin-top: 20vh;
-
 }
+
 .outro video {
   position: absolute;
-  top:0;
+  top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80vw;
 }
-.outro p, .outro a{
+
+.outro p, .outro a {
   text-align: center;
   color: white;
   width: 80vw;
@@ -527,9 +616,8 @@ p a{
 }
 
 /* Einde outro */
-
 /* Begin laatste foto */
-.laatsteFoto{
+.laatsteFoto {
   height: 40vh;
   width: 100vw;
   background-color: white;
@@ -538,24 +626,136 @@ p a{
   align-items: center;
 }
 
-.laatsteFoto img{
+.laatsteFoto img {
   width: 80vw;
 }
-/* Einde laatste foto */
 
+/* Einde laatste foto */
 /* Einde tekst */
 
 
-
-
-
 /* Begin back */
-
-.back{
+.back {
   position: fixed;
+  text-decoration: none;
+  color: black;
   top: 50%;
   left: 1em;
   transform: translate(-50%, -50%) rotate(-90deg);
 }
+
 /* Einde back */
 /* Einde kensinstonEstate */
+
+
+/* Animaties begin*/
+.playbutton span:nth-of-type(3) {
+  animation: playRotate 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes playRotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.introPagina div:nth-of-type(2) span {
+  animation: scrollDown 4s infinite;
+}
+
+@keyframes scrollDown {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.startFooter * {
+  opacity: 1;
+}
+
+.startFooter h1 span {
+  animation: footerUp 1s;
+  animation-fill-mode: backwards;
+}
+
+.startFooter h1 span:nth-of-type(2) {
+  animation-delay: .5s;
+}
+
+.startFooter h1 span:nth-of-type(3) {
+  animation-delay: 1s;
+}
+
+@keyframes footerUp {
+  from {
+    top: 1.5em;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+.startFooter a:nth-of-type(1) span:nth-of-type(1) {
+  animation: footerOpacity 1s;
+  animation-fill-mode: backwards;
+  animation-delay: 2s;
+}
+
+@keyframes footerOpacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.startFooter a:nth-of-type(1) span:nth-of-type(2) {
+  position: relative;
+  animation: footerOpacityRight 1s;
+  animation-fill-mode: both;
+  animation-delay: 3s;
+}
+
+@keyframes footerOpacityRight {
+  from {
+    opacity: 0;
+    left: -.5em;
+  }
+
+  to {
+    opacity: 1;
+    left: .5em;
+  }
+}
+
+.startFooter div a {
+  animation: footerDown 1s;
+  animation-fill-mode: backwards;
+  animation-delay: 4s;
+}
+
+@keyframes footerDown {
+  from {
+    top: -1.7em;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+
+
+/* Animaties einde */
