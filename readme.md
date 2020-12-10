@@ -40,5 +40,25 @@ Hoe maak ik de header responsive als hij er compleet anders uitziet op desktop d
 Niels
 Hoe zorg je dat een element beweegt doordat jij scrolled?
 
+Week 4
 
+Eigenlijk niet zo veel aan front-end gedaan alleen de huiswerkopdrachten gedaan.
+
+Week 5
+Er was nu weer een feedbackgesprek en hiervoor heb ik een hoop interacties en animaties uitgewerkt
+
+Daan(ik)
+Hoeveel comments moet je ongeveer in je code hebben?
+
+Dewi
+Hoeveel animaties moet je ongeveer maken?
+
+Noa
+Hoe maak ik die banner anders met hover de tekst in desktop en in mobiel pijtlje gebruiken
+
+Inez
+Hoe zorg je ervoor dat je website werkt op meerdere telefoons en landscape mode?
+
+Niels
+-
 
