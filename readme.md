@@ -62,3 +62,12 @@ Hoe zorg je ervoor dat je website werkt op meerdere telefoons en landscape mode?
 Niels
 -
 
+Week 6
+Screenreader
+Is de structuur van de heading logisch?
+Ik heb mijn dropdown van mijn menu nog niet uitgewerkt. (ga ik waarschijnlijk nog wel doen). Dus bij mij werdt dat lastig. Daarom heb ik het maar op de site van bowenmedia gedaan en daarop klonk het wel logisch.
+
+Is het duidelijk wat alle linkjes doen met een screanreader?
+ja alle linkjes vertellen goed waar ze heen gaan met tekst. Ze geven dus met tekst feed forward wat er op de site te vinden is. Er zijn geen linkjes die geen tekst hebben waarin staat wat ze doen
+
+
