@@ -1,5 +1,10 @@
+****************
 Productbiografie
+****************
 
+****************
+Begin verslag
+****************
 Mijn startniveau:
 Mijn niveau is zwarte piste. Ik vindt code erg leuk en zoek naar uitdagingen.
 
@@ -18,14 +23,15 @@ Dit is mijn breakdown schets van bowenmedia. Dit is de site die ik ga uitwerken 
 ![Screenshot](breakdownSchets.jpg)
 
 
-
+******
 Week 2
+******
 
 In week 2 hoorde ik dat ik in week 3 90% van mijn html af moest hebben. Ik heb toen vrijdag van week 2 99% van mijn html en css afgemaakt. Vraag mij niet hoe, maar ik ging als een trein. klik op de link om te zien hoe mijn site nu is
 
-
-
+******
 Week 3
+******
 
 Woensdag heb ik nog even mijn werk door een W3C validator gehaald en daarna heb ik deze readme file bijgewerkt en ingeleverd.
 
@@ -45,14 +51,16 @@ Niels
 Hoe zorg je dat een element beweegt doordat jij scrolled?
 
 
-
+******
 Week 4
+******
 
 Eigenlijk niet zo veel aan front-end gedaan alleen de huiswerkopdrachten gedaan.
 
-
-
+******
 Week 5
+******
+
 Er was nu weer een feedbackgesprek en hiervoor heb ik een hoop interacties en animaties uitgewerkt
 
 Daan(ik)
@@ -67,11 +75,11 @@ Hoe maak ik die banner anders met hover de tekst in desktop en in mobiel pijtlje
 Inez
 Hoe zorg je ervoor dat je website werkt op meerdere telefoons en landscape mode?
 
-
-
+******
 Week 6
+******
 
-Ik heb niks aan front end gedaan behalve de screenreader opdracht. Die opdracht vond ik wel heel lastig want ik met een screenreader werken vond ik erg lastig.
+Ik heb niks aan front end gedaan behalve de screenreader opdracht. Die opdracht vond ik wel heel lastig want met een screenreader werken kreeg ik bijna niet voor mekaar.
 
 Screenreader
 Is de structuur van de heading logisch?
@@ -92,9 +100,16 @@ hoe zet ik iets in mijn dropdown van mn searchbalk? En wanneer je surface laag d
 Inez
 Hoe maak je een goed hamburger menu? Hoe maak je je website responsive zonder alles te breken?
 
+******
 Week 7
+******
 
+Comments toegevoegd aan mijn code, readme file bijgewerkt met bronnen en de accesibility verslag afgemaakt. 
+
+********
 Bronnen:
+********
+
 Site die ik heb nagemaakt:
 1. https://www.bowenmedia.com/
 
