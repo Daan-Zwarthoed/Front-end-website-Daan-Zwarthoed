@@ -92,4 +92,18 @@ hoe zet ik iets in mijn dropdown van mn searchbalk? En wanneer je surface laag d
 Inez
 Hoe maak je een goed hamburger menu? Hoe maak je je website responsive zonder alles te breken?
 
+Week 7
+
+Bronnen:
+Site die ik heb nagemaakt:
+1. https://www.bowenmedia.com/
+
+Site die ik heb gebruikt als ik even een element of css style niet meer weet (denk aan het maken van animaties)
+2. https://www.w3schools.com/
+
+Header die zichtbaar word als je omhoog scrolled:
+3. "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+
+Font Roboto:
+4. https://fonts.google.com/specimen/Roboto
 
