@@ -83,7 +83,7 @@ Ik heb niks aan front end gedaan behalve de screenreader opdracht. Die opdracht 
 
 Screenreader
 Is de structuur van de heading logisch?
-Ik heb mijn dropdown van mijn menu nog niet uitgewerkt. (ga ik waarschijnlijk nog wel doen). Dus bij mij werdt dat lastig. Daarom heb ik het maar op de site van bowenmedia gedaan en daarop klonk het wel logisch.
+Ik heb mijn dropdown van mijn menu niet uitgewerkt. Dus bij mij werdt dat lastig. Daarom heb ik het maar op de site van bowenmedia gedaan en daarop klonk het wel logisch.
 
 Is het duidelijk wat alle linkjes doen met een screanreader?
 ja alle linkjes vertellen goed waar ze heen gaan met tekst. Ze geven dus met tekst feed forward wat er op de site te vinden is. Er zijn geen linkjes die geen tekst hebben waarin staat wat ze doen
@@ -104,7 +104,7 @@ Hoe maak je een goed hamburger menu? Hoe maak je je website responsive zonder al
 Week 7
 ******
 
-Comments toegevoegd aan mijn code, readme file bijgewerkt met bronnen en de accesibility verslag afgemaakt. 
+Comments toegevoegd aan mijn code, readme file bijgewerkt met bronnen en de accesibility verslag afgemaakt. Daarnaast heb ik bij 2 tekstjes een achtergrond tekst toegevoegd die van links naar rechts gaat als je erlangs scrolled. Dit was lastig om uit te vinden aangezien ik online er vrij weinig over kon vinden maar het is uiteindelijk wel gelukt 
 
 ********
 Bronnen:
