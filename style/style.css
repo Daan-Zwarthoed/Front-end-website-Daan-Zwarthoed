@@ -1,3 +1,6 @@
+/* ************* */
+/* Begin algemeen */
+/* ************* */
 *, html {
   margin: 0;
   box-sizing: border-box;
@@ -9,46 +12,108 @@ header, .introPagina, .featuredProject {
 }
 
 
+/* ************* */
+/* Einde algemeen */
+/* ************* */
+
+/* ************* */
 /* begin header */
+/* ************* */
+
 header {
   position: fixed;
   z-index: 9;
-  height: 10vh;
   left: 0;
   right: 0;
   top: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2em;
   opacity: 1;
   transition: 1s;
+  height: 10vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
-header div {
+header >div:nth-of-type(1){
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      padding: 2em;
+}
+
+header > div:nth-of-type(1) > div {
   height: 2em;
   width: 8em;
   background-image: url('../images/bowenMediaLogoWit.svg');
   background-size: cover;
   border-style: none;
+
 }
 
-header button {
+header > div:nth-of-type(1) > button {
   background-color: transparent;
   border: none;
   color: white;
+}
+
+header > div:nth-of-type(2){
+  visibility: hidden;
+  position: absolute;
+
+}
+
+header  li{
+display: flex;
+margin-top: 2em; margin-bottom: 2em;
+
+
+}
+
+header li > a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+color: white ;
+}
+
+header li span{
+transform: rotate(90deg);
+display: flex;
+margin-left: 1em;
+}
+
+header > div:nth-of-type(2){
+  margin-left: 2em;
+  position: relative;
+
+}
+
+header > div:nth-of-type(2) > a{
+  z-index: 12;
+  position: relative;
+  width: 50vw;
+}
+
+header > div:nth-of-type(2) > div{
+position: absolute;
+left: 0;
+top:-1em;
+height: 3em;
+width: 3em;
+border-radius: 100%;
+z-index: 11;
+opacity: .5;
 }
 
 .headerWit{
   background-color: white;
 }
 
-.headerWit div{
+.headerWit > div:nth-of-type(1) > div{
   background-image: url('../images/bowenMediaLogoZwart.svg');
 }
 
-.headerWit *{
+.headerWit > div:nth-of-type(1) > button{
 color: black;
 }
 
@@ -60,9 +125,52 @@ color: black;
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
 }
-
+/* ************* */
 /* einde header */
+/* ************* */
+
+/* ************* */
+/* begin dropdownHeader*/
+/* ************* */
+
+body.noScroll{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dropdownActief{
+  position: fixed;
+height: 100vh;
+width: 100vw;
+background-color:black;
+}
+
+.dropdownActief *{
+color: white !important;
+}
+
+.dropdownActief > div:nth-of-type(1) > div{
+  background-image: url('../images/bowenMediaLogoWit.svg') !important;
+}
+
+.dropdownActief > div:nth-of-type(2){
+width: 100vw;
+height: 90vh;
+visibility: visible;
+position: relative;
+}
+
+
+
+
+/* ************* */
+/* einde dropdownHeader */
+/* ************* */
+
+
+/* ************* */
 /* Begin footer */
+/* ************* */
 footer {
   height: 50vh;
   background-color: black;
@@ -121,9 +229,17 @@ footer>div>div>a {
   margin-right: 0.5em;
 }
 
+/* ************* */
 /* Einde footer */
+/* ************* */
+
+/* ************* */
 /* Begin index pagina */
+/* ************* */
+
+/* ************* */
 /* begin intropagina */
+/* ************* */
 .introPagina {
   position: relative;
   height: 200vh;
@@ -229,27 +345,32 @@ overflow: hidden;
   height: 10em;
 }
 
-
+/* ************* */
 /* einde beginpagina */
+/* ************* */
+
+/* ************* */
 /* Begin featured project */
+/* ************* */
 .featuredProject {
-  position:absolute;
+position: absolute;
+visibility: hidden;
   padding-top: 140vh;
   top: 0; bottom: 0; left: 0; right: 0;
   height: 400vh;
-z-index: 10;
 opacity: 0;
 transition: 1s;
   background-color: #2f5cb6;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 0;
 }
 
 .featuredProjectActief{
 opacity: 1;
+visibility: visible;
 z-index: 2;
+  position:absolute;
 }
 
 .featuredProject>* {
@@ -314,8 +435,14 @@ z-index: 2;
   border-right: 2px solid white;
 }
 
+/* ************* */
 /* Einde featured project */
+/* ************* */
+
+/* ************* */
 /* Begin extra kopjes */
+/* ************* */
+
 .extraKopjes {
   display: flex;
   flex-direction: column;
@@ -349,9 +476,49 @@ z-index: 2;
 .extraKopjes a span {
   text-decoration: underline;
 }
-
+/* ************* */
 /* Einde extra kopjes */
+/* ************* */
+
+/* ************* */
+/* Begin fancy kopjes */
+/* ************* */
+
+.latest, .extraKopjes{
+  width: 100vw;
+  overflow: hidden;
+}
+
+.latest> div:nth-of-type(1), .extraKopjes > div:nth-of-type(1){
+    position: relative;
+    width: 80vw;
+}
+
+.latest > div:nth-of-type(1){
+    justify-content: center;
+}
+
+.latest > div:nth-of-type(1) > h2:nth-of-type(1), .extraKopjes > div:nth-of-type(1) > h2:nth-of-type(1){
+    position: relative;
+    z-index: 2;
+}
+
+ .latest > div:nth-of-type(1) > h2:nth-of-type(2), .extraKopjes > div:nth-of-type(1) > h2:nth-of-type(2){
+  position: absolute;
+  top: 0;
+  color: purple;
+  z-index: 1;
+opacity: .5;
+}
+
+/* ************* */
+/* Einde fancy kopjes */
+/* ************* */
+
+/* ************* */
 /* Begin latest */
+/* ************* */
+
 .latest {
   margin-top: 3em;
   display: flex;
@@ -359,7 +526,7 @@ z-index: 2;
   align-items: center;
 }
 
-.latest>div {
+ .latest > img, .latest > div:nth-of-type(2) {
   width: 80vw;
   height: 80vw;
   margin-top: 1em;
@@ -368,15 +535,8 @@ z-index: 2;
   margin-bottom: 5vh;
 }
 
-.latest>div>img {
-  position: absolute;
-  height: 80vw;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
 
-.latest>div:nth-of-type(3) {
+.latest>div:nth-of-type(2) {
   background-color: purple;
   color: white;
   display: flex;
@@ -388,16 +548,33 @@ z-index: 2;
   padding-right: 4em;
 }
 
-.latest>div:nth-of-type(4)>p:nth-of-type(2) {
+.latest > div:nth-of-type(3){
+  width: 80vw;
+  margin-bottom: 1em;
+}
+
+.latest>div:nth-of-type(3)>p:nth-of-type(2) {
   margin-top: 1em;
   margin-bottom: 1em;
   font-weight: bolder;
 }
 
+/* ************* */
 /* Einde latest */
+/* ************* */
+
+/* ************* */
 /* Einde index pagina */
+/* ************* */
+
+/* ************* */
 /* Begin kensinstonEstate */
+/* ************* */
+
+/* ************* */
 /* Begin intro */
+/* ************* */
+
 .intro div {
   display: flex;
   justify-content: space-between;
@@ -434,8 +611,14 @@ z-index: 2;
   background-color: #2f5cb6;
 }
 
+/* ************* */
 /* Einde intro */
+/* ************* */
+
+/* ************* */
 /* Begin tekst */
+/* ************* */
+
 .tekst {
   display: flex;
   flex-direction: column;
@@ -462,7 +645,10 @@ z-index: 2;
   height: 1.5em;
 }
 
+/* ************* */
 /* Begin kleuren */
+/* ************* */
+
 .kleuren {
   display: flex;
   flex-direction: row;
@@ -501,8 +687,14 @@ z-index: 2;
   background-color: #04162d;
 }
 
+/* ************* */
 /* Einde kleuren */
+/* ************* */
+
+/* ************* */
 /* Begin fonts */
+/* ************* */
+
 .fonts {
   display: flex;
   flex-wrap: wrap;
@@ -546,8 +738,14 @@ z-index: 2;
   margin-bottom: 2em;
 }
 
+/* ************* */
 /* Einde fonts*/
+/* ************* */
+
+/* ************* */
 /* Begin rest */
+/* ************* */
+
 .rest {
   margin-top: 4em;
 }
@@ -585,8 +783,14 @@ p a {
   margin-bottom: 4em;
 }
 
+/* ************* */
 /* Einde rest */
+/* ************* */
+
+/* ************* */
 /* Begin outro */
+/* ************* */
+
 .outro {
   position: relative;
   width: 100vw;
@@ -615,8 +819,14 @@ p a {
   text-decoration: none;
 }
 
+/* ************* */
 /* Einde outro */
+/* ************* */
+
+/* ************* */
 /* Begin laatste foto */
+/* ************* */
+
 .laatsteFoto {
   height: 40vh;
   width: 100vw;
@@ -630,11 +840,18 @@ p a {
   width: 80vw;
 }
 
+/* ************* */
 /* Einde laatste foto */
+/* ************* */
+
+/* ************* */
 /* Einde tekst */
+/* ************* */
 
-
+/* ************* */
 /* Begin back */
+/* ************* */
+
 .back {
   position: fixed;
   text-decoration: none;
@@ -644,11 +861,42 @@ p a {
   transform: translate(-50%, -50%) rotate(-90deg);
 }
 
+/* ************* */
 /* Einde back */
+/* ************* */
+
+/* ************* */
 /* Einde kensinstonEstate */
+/* ************* */
 
-
+/* ************* */
 /* Animaties begin*/
+/* ************* */
+
+.dropdownActief > div:nth-of-type(2)  > div{
+    animation: ballColorChange 10s infinite;
+}
+
+@keyframes ballColorChange {
+0%{
+  background-color: blue;
+}
+25%{
+  background-color:red;
+}
+50%{
+  background-color:brown;
+}
+75%{
+  background-color:purple;
+}
+100%{
+  background-color:blue;
+}
+}
+
+
+/* Rotatie playbutton */
 .playbutton span:nth-of-type(3) {
   animation: playRotate 3s infinite;
   animation-timing-function: linear;
@@ -758,4 +1006,7 @@ p a {
 
 
 
+
+/* ************* */
 /* Animaties einde */
+/* ************* */
