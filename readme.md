@@ -82,8 +82,12 @@ Week 6
 Ik heb niks aan front end gedaan behalve de screenreader opdracht. Die opdracht vond ik wel heel lastig want met een screenreader werken kreeg ik bijna niet voor mekaar.
 
 Screenreader
+
+Hoe heb ik de screenreader gebruikt?
+Ik heb de screenreader van de mac gebruikt. Ik heb toen een hele tijd geprobeerd daarmee te kunnen werken. Maar na 1 keer googlen kwam ik erachter dat je gewoon tab kan gebruiken om door alle links van een site heen te gaan. Dat heb ik toen gedaan en daarmee heb ik toen de screenreader opdracht gemaakt.
+
 Is de structuur van de heading logisch?
-Ja ik heb op nu ook mijn dropdown uitgewerkt en je kan er nu met een screenreader doorheen tabben en dat werkt goed.
+Ja ik je kan er goed met een screenreader doorheen tabben en het is ook duidelijk wat waarheen gaat.
 
 Is het duidelijk wat alle linkjes doen met een screanreader?
 ja alle linkjes vertellen goed waar ze heen gaan met tekst. Ze geven dus met tekst feed forward wat er op de site te vinden is. Er zijn geen linkjes die geen tekst hebben waarin staat wat ze doen.
