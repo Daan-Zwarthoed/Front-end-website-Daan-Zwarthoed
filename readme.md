@@ -111,6 +111,12 @@ Week 7
 Comments toegevoegd aan mijn code, readme file bijgewerkt met bronnen en de accesibility verslag afgemaakt. Daarnaast heb ik bij 2 tekstjes een achtergrond tekst toegevoegd die van links naar rechts gaat als je erlangs scrolled. Dit was lastig om uit te vinden aangezien ik online er vrij weinig over kon vinden maar het is uiteindelijk wel gelukt.
 Daarnaast heb ik ook mijn header afgemaakt waardoor die uitklapt als je op de knop klikt.
 
+******
+Week 8
+******
+
+Ik heb na de feedback van janno nog comments toegevoegd aan mijn HTML en een aantal divjes verandert in sections om de html meer semantisch correct te maken. Daarna heb ik het weer ingeleverd en github geupdate
+
 ********
 Bronnen:
 ********
