@@ -160,9 +160,6 @@ visibility: visible;
 position: relative;
 }
 
-
-
-
 /* ************* */
 /* einde dropdownHeader */
 /* ************* */
@@ -759,7 +756,7 @@ opacity: .5;
   margin-bottom: 3em;
 }
 
-.rest div span:nth-of-type(1) {
+.rest span:nth-of-type(1) {
   border-right: 1px solid black;
   padding-right: .2em;
 }
